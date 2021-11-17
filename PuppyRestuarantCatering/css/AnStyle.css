@@ -1,0 +1,52 @@
+
+.nav-link{
+    color: #5F002B !important;
+    font-family: 'Fugaz One', cursive;
+    font-size: 20px;
+    opacity: 100%;
+}
+
+.brownBG{
+    background-color: #F2E9D9;
+    background-image: url(../images/bgtexture.jpg);
+}
+
+.cateringHeader{
+    background-color: #FFFFFF;
+    margin-bottom: 86px;
+}
+
+.Fugaz50{
+    font-family: 'Fugaz One', cursive;
+    color: #5F002B;
+    font-size: 50px;
+}
+
+.Fugaz30{
+    font-family: 'Fugaz One', cursive;
+    color: #5F002B;
+    font-size: 30px;
+}
+
+.Montauk20{
+    font-family: 'Montauk-Regular';
+    color: #5F002B;
+    font-size: 20px;
+}
+
+
+.heroBottom{
+    margin-bottom: 90px;
+}
+
+.aboutCatering{
+    background-color: #FFFFFF;
+}
+
+.aboutCateringBottom{
+    margin-bottom: 100px;
+}
+
+.cateringImagesBotoom{
+    margin-bottom: 55px;
+}
