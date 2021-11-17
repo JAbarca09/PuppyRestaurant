@@ -1,0 +1,22 @@
+.bgTexture{
+    background-image: url("../images/bgtexture.jpg");
+}
+.bgColor{
+    background-color: #F2E9D9;
+}
+.bgWhite{
+    background-color: white;
+}
+.ContainerFluidBg{
+    background-image: url(../images/bgtexture.jpg);
+    background-size: cover;
+    /* background-position: ; */
+    height: 100%;
+    display: relative;
+}
+.nav-link{
+    color: #5F002B !important;
+    font-family: 'Fugaz One', cursive;
+    font-size: 20px;
+    opacity: 100%;
+}
