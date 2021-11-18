@@ -26,34 +26,61 @@
     <div class="container-fluid bgColor">
       <div class="container">
         <div class="row">
-          <div class="col-12 mb-4">
-              <nav class="navbar navbar-expand-lg ">
-                  <a class="navbar-brand" href="#">
-                      <img src="./images/MuzzlesLogo.png" alt="">
-                  </a>
-                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                  </button>
-                  <div class="collapse navbar-collapse d-flex justify-content-end" id="navbarSupportedContent">
-                      <!--me-auto mb-2 mb-lg-0"-->
-                    <ul class="navbar-nav Fugaz20 ">
-                      <li class="nav-item">
-                        <a class="nav-link active mx-3 " aria-current="page" href="#">About</a>
-                      </li>
-                      <li class="nav-item">
-                        <a class="nav-link mx-3" href="#">Menu</a>
-                      </li>
-                      <li class="nav-item mx-3">
-                        <a class="nav-link" href="#">Catering</a>
-                      </li>
-                      <li class="nav-item mx-3">
-                        <a class="nav-link" href="#">Photo</a>
-                      </li>
-                    </ul>
+          <!-- Hidden on md, sm, xs -->
+          <div class="d-md-none d-lg-block d-sm-none d-md-block d-none d-sm-block">
+              <div class="col-12 mb-4">
+                  <nav class="navbar navbar-expand-lg">
+                      <a class="navbar-brand" href="#">
+                          <img class="mx-5" src="./images/MuzzlesLogo.png"
+                              alt="Image of Muzzle's logo.">
+                      </a>
+                      <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                          data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                          aria-expanded="false" aria-label="Toggle navigation">
+                          <span class="navbar-toggler-icon"></span>
+                      </button>
+                      <div class="collapse navbar-collapse d-flex justify-content-end" id="navbarSupportedContent">
+                          <ul class="navbar-nav Fugaz20">
+                              <li class="nav-item">
+                                  <a class="nav-link active mx-3" aria-current="page" href="#">About</a>
+                              </li>
+                              <li class="nav-item">
+                                  <a class="nav-link mx-3" href="#">Menu</a>
+                              </li>
+                              <li class="nav-item mx-3">
+                                  <a class="nav-link" href="#">Catering</a>
+                              </li>
+                              <li class="nav-item mx-3">
+                                  <a class="nav-link" href="#">Photo</a>
+                              </li>
+                          </ul>
+                      </div>
+                  </nav>
+              </div>
+          </div>
+      </div>
+
+      <!--This is the second navbar it only shows when the screen gets smaller-->
+      <!-- Hidden on xxl, xl, lg -->
+      <div class="d-xxl-none d-xl-none d-xxl-block d-lg-none d-xl-block">
+          <nav class="navbar navbar-expand-lg navbar-light ContainerFluidBg mb-4">
+              <a class="navbar-brand" href="#">
+                  <img class="mx-5" src="./images/MuzzlesLogo.png" alt="Image of Muzzle's logo.">
+              </a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
+                  aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                  <div class="navbar-nav align-items-center">
+                      <a class="nav-link active" aria-current="page" href="#">About</a>
+                      <a class="nav-link" href="#">Menu</a>
+                      <a class="nav-link" href="#">Catering</a>
+                      <a class="nav-link" href="#">Photo</a>
                   </div>
-              </nav>
-          </div>
-          </div>
+              </div>
+          </nav>
       </div>
       <!-- start of container -->
       <div class="container">
@@ -74,7 +101,7 @@
           <!-- start of menu cards -->
       <div class="row row-cols-1 row-cols-md-2 g-4">
         <div class="col">
-          <div class="card">
+          <div class="card h-100 ">
             <img src="../images/menubeef.jpg" class="card-img-top" alt="picture of beef">
             <div class="card-body">
               <p class="card-title card-title-margin Fugaz30">Sandwiches</p>
@@ -133,9 +160,9 @@
           </div>
         </div>
         <div class="col">
-          <div class="card">
+          <div class="card h-100  ">
             <img src="../images/menuseafood.jpg" class="card-img-top" alt="shrimp on a stick">
-            <div class="card-body">
+            <div class="card-body ">
               <p class="card-title card-title-margin Fugaz30">Seafood</p>
               <p class="card-title card-title-margin-bottom Montauk20">All seafood comes with a side of rice pilaf and grilled vegetables</p>
               <div class="row">
@@ -186,7 +213,7 @@
           </div>
         </div>
         <div class="col">
-          <div class="card">
+          <div class="card h-100 ">
             <img src="../images/menumeat.jpg" class="card-img-top" alt="picture of beef">
             <div class="card-body">
               <p class="card-title card-title-margin Fugaz30">On the grill</p>
@@ -245,7 +272,7 @@
           </div>
         </div>
         <div class="col">
-          <div class="card">
+          <div class="card h-100 ">
             <img src="../images/menudesserts.jpg" class="card-img-top" alt="brownie with ice cream on top">
             <div class="card-body">
               <p class="card-title card-title-margin Fugaz30">Desserts</p>

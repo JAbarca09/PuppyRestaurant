@@ -24,7 +24,10 @@
     font-size: 20px;
 }
 .nav-link{
-    color: #5F002B;
+    color: #5F002B !important;
+    font-family: 'Fugaz One', cursive;
+    font-size: 20px;
+    opacity: 100%;
 }
 .lineColor{
     color: #5F002B;
