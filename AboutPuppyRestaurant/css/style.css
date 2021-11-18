@@ -20,3 +20,15 @@
     font-size: 20px;
     opacity: 100%;
 }
+.Montauk20{
+    font-size: 20px;
+    color: #5F002B;
+}
+.FooterTxt{
+    font-size: 20px;
+    color: #5F002B;
+}
+@font-face {
+    font-family: "Montauk-Regular";
+    src: url("../fonts/Montauk-Regular.otf");
+}
