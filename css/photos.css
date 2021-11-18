@@ -1,0 +1,44 @@
+/* This is the background Everything must be inside this background */
+.ContainerFluidBg{
+    background-image: url(/RestaurantMockupFiles/assets/bgtexture.jpg);
+    background-size: cover;
+    /* background-position: ; */
+    height: 100%;
+    display: relative;
+}
+/* Navbar styling begins */
+.nav-link{
+    color: #5F002B !important;
+    font-family: 'Fugaz One', cursive;
+    font-size: 20px;
+    opacity: 100%;
+}
+
+/* Navbar styling ends */
+/* Photo header styling begins */
+.PhotoBg{
+    background-color: white;
+}
+
+.PhotoTitleTxt{
+    color: #5F002B !important;
+    font-family: 'Fugaz One', cursive;
+    font-size: 50px;
+    opacity: 100%;
+}
+/* Photo header styling ends */
+/* Gallery of Photo styling begins */
+.borderForImg{
+    border: 10px solid white;
+}
+
+.photo1{
+    background-image: url(/RestaurantMockupFiles/assets/photo01.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 35vh;  
+    width: 80%; 
+    display: relative;
+
+}
+/* Gallery of Photo styling ends */

@@ -1,0 +1,84 @@
+/* This is the background Everything must be inside this background */
+.ContainerFluidBg{
+    background-image: url(/RestaurantMockupFiles/assets/bgtexture.jpg);
+    background-size: cover;
+    /* background-position: ; */
+    height: 100%;
+    display: relative;
+}
+
+/* Navigation Bar Styling Begins */
+
+.nav-link{
+    color: #5F002B !important;
+    font-family: 'Fugaz One', cursive;
+    font-size: 20px;
+    opacity: 100%;
+}
+
+/* .navbar-nav{
+    margin-left: 50%;
+} */
+
+
+/* Navigation Bar Ends */
+/* Hero Image Under the Nav Bar Begins */
+.HeroHomeImg{
+    background-image: url(/RestaurantMockupFiles/assets/homeHero.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 70vh;
+    display: relative;
+}
+/* Hero Image Under the Nav Bar Ends */
+/* The Third Section Begins, image alongside txt and more images under txt */
+.HomeSingleImg{
+    background-image: url(/RestaurantMockupFiles/assets/homeSingle.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 71vh;   
+    display: relative;
+}
+
+.BackgroundForTxt{
+    background-color: #FFFFFF;
+}
+
+.MuzzlesTitleTxt{
+    font-family: 'Fugaz One', cursive;
+    font-size: 50px;
+    color: #5F002B;
+}
+
+@font-face{
+    font-family: "Montauk-Light";
+    src: url(../fonts/Montauk-Light.otf);
+}
+
+.MuzzlesSubTxt{
+    font-size: 20px;
+    font-family: "Montauk-Light";
+    color: #5F002B;
+}
+.HomeImageImg{
+    background-image: url(/RestaurantMockupFiles/assets/HomeImage.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 20vh;   
+    width: 100%;
+    display: relative;
+}
+/* The Third Section Ends, image alongside txt and more images under txt */
+/* Footer section begins */
+
+.FooterTxt{
+    color: #5F002B;
+    font-size: 20px;
+}
+
+.Montauk20{
+    font-size: 20px;
+    font-family: "Montauk-Light";
+    color: #5F002B;
+}
+/* Footer section ends */
