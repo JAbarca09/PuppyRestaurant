@@ -1,6 +1,6 @@
 @font-face {
-    font-family: "Montauk-Regular";
-    src: url("../fonts/Montauk-Regular.otf");
+    font-family: "Montauk-Light";
+    src: url("../fonts/Montauk-Light.otf");
 }
 .bgColor{
     background-color: #F2E9D9;
@@ -44,11 +44,11 @@
 
 .Montauk20{
     font-size: 20px;
-    font-family: "Montauk-Regular";
+    font-family: "Montauk-Light";
     color: #5F002B;
 }
 .Montauk35{
     font-size: 35px;
     color: #5F002B;
-    font-family: "Montauk-Regular";
+    font-family: "Montauk-Light";
 }
